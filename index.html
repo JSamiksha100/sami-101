@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Login Page </title>
+    <link rel="stylesheet" type="text/css" href="log.css">
+</head>
+<body>
+    <svg viewBox="0 0 960 300">
+    <symbol id="s-text">
+        <text text-anchor="middle" x="50%" y="80%">Welcome!!!.....</text>
+    </symbol>
+
+    <g class = "g-ants">
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+    </g>
+</svg>
+<h2> To the Quizzzz Beeeee.....</h2>
+<div class="container" id="container">
+    <div class="form-container sign-up-container">
+        <form action="#">
+            <h1>Create Account</h1>
+            <div class="social-container">
+                <a href="https://www.facebook.com/" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://accounts.google.com/login" class="social"><i class="fab fa-google-plus-g"></i></a>
+                <a href="https://www.linkedin.com/login" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <span>or use your email for registration</span>
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <button>Sign Up</button>
+        </form>
+    </div>
+    <div class="form-container sign-in-container">
+        <form action="quiz.html">
+            <h1>Sign in</h1>
+            <div class="social-container">
+                <a href="https://www.facebook.com/" class="social"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://accounts.google.com/login" class="social"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <span>or use your account</span>
+            <input type="email" placeholder="Email" />
+            <input type="password" placeholder="Password" />
+            <a href="https://www.linkedin.com/login">Forgot your password?</a>
+            <button>Sign In</button>
+        </form>
+    </div>
+    <div class="overlay-container">
+        <div class="overlay">
+            <div class="overlay-panel overlay-left">
+                <h1>Welcome Back!</h1>
+                <p>To keep connected with us please login with your  info</p>
+                <button class="ghost" id="signIn">Sign In</button>
+            </div>
+            <div class="overlay-panel overlay-right">
+                <h1>Hello..!!</h1>
+                <p>Enter your  details and start your journey with one and only EASYYYY QYIZZZ BEEEE.....</p>
+                <button class="ghost" id="signUp">Sign Up</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>
+    Quiz Game made by (TE-A) - Roll.no 101 , 108 , 111.
+    </p>
+</footer>
+<script src="log.js"></script>
+</body>
+</html>
