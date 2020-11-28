@@ -265,7 +265,7 @@ anime.timeline({loop: true})
 
 
 
-  var sec = 40;
+  var sec = 60;
 var time = setInterval(myTimer, 1000);
 
 function myTimer() {
